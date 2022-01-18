@@ -1,0 +1,131 @@
+@font-face {
+    font-family: AngryBirds;
+    src: url("../assets/fonts/angrybirds-regular.ttf");
+}
+
+
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box; 
+}
+
+html, body{
+    height: 100%;
+    font-family: AngryBirds;
+}
+body {
+    background:url(../assets/images/backgrounds/Egg3bg.jpg) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    overflow:hidden;
+}
+
+h1{
+    position: absolute;
+    font-size: 3em;
+    color:rgb(16, 14, 37);
+    top:30px;
+}
+
+.userInfo, .score, .timer, .target{
+    width:600px;
+    padding:10px 0px 0px 10px;
+    height: 50px;
+    font-size: 1.5rem;
+    color:darkgreen;
+    font-weight: 700;
+    float:left;
+}
+.userInfo span span, .score span span, .timer span span, .target span span {
+    color:rgb(105, 40, 40);
+}
+
+.score, .timer, .target
+{
+
+    width:auto !important;
+    float:right;
+    margin: 8px 75px;
+}
+
+.timer
+{
+    float:right;
+}
+.target
+{
+    float:right;
+}
+
+.home ,.reload{
+    background: url("../assets/images/buttons/button_home.png");
+    outline: hidden;
+    border: hidden;
+    cursor: pointer;
+    background-size: 100% 100%;
+    width: 50px;
+    height: 50px;
+    float:right;
+    margin-left: 25px;
+}
+.reload
+{
+    background: url("../assets/images/buttons/reload.png");
+    background-size: 100% 100%;
+    width: 40px;
+    height: 40px;
+    margin-top: 7px;
+    margin-right: 20px;
+}
+.reload:hover
+{
+    width: 50px;
+    height: 50px;
+}
+.home:hover
+{
+    width: 60px;
+    height: 60px;
+}
+
+#gameOverPanal
+{
+    width:100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #b9b9b955;
+}
+
+.popup
+{
+    background: url(../assets/images/backgrounds/back_101_menu.png);
+    width: 350px;
+    background-size: 100% 100%;
+    min-height: 300px;
+    padding: 50px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.popup >*
+{
+    margin: 20px 0px;
+}
+.game-btn
+{
+    background-image: url(../assets/images/buttons/backgound_002.png);
+    background-size: 100% 100%;
+    margin: 0px 5px;
+    width: 100px;
+    height: 50px;
+    color: white;
+    border:none;
+    outline: none;
+}
+.game-btn:hover
+{
+    width: 110px;
+    height: 60px;
+}

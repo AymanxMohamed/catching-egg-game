@@ -1,0 +1,64 @@
+@font-face {
+    font-family: AngryBirds;
+    src: url("../assets/fonts/angrybirds-regular.ttf");
+}
+
+
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box; 
+}
+
+html, body{
+    height: 100%;
+    font-family: AngryBirds;
+}
+body {
+    background:url(../assets/images/backgrounds/Egg1bg.jpg) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    overflow:hidden;
+}
+
+.login
+{
+    background: url(../assets/images/backgrounds/back_101_menu.png);
+    width: 300px;
+    background-size: 100% 100%;
+    min-height: 300px;
+    padding: 50px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.login >*
+{
+    margin: 20px 0px;
+}
+input[type="text"]
+{
+    background-size: 100% 100%;
+    height: 30px;
+    border-style: groove;
+    display: block;
+    padding: 20px;
+}
+#loginButton
+{
+    background-color: rgb(119, 49, 49);
+    margin-top: 20px;
+    padding:10px;
+    height: 40px;
+}
+.container
+{
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ececec11;
+}
